@@ -16,13 +16,22 @@
 * Child scope can access the variables of it's parent scope plus global scope but the parent scope doesnt have access to the child scope.
 
 
-// function newPhone(iphone, android) {
-47
+// function expression:
+// we make a function expression by assigning a function to a variable
+ex:
+function newPhone(iphone, android) {
     return iphone + ' ' + android;
-48
 }
-49
 newPhone('iphone', 'android');
 
-// function expression: 
+
+//Functions can see and modify variables in the global scope 
+ ex: 
+let name = "JD";
+function newName() {
+name = "waxx";
+} 
+// console.log(name);// prints JD
+newName();// to access waxx I have to call the function then check for name
+console.log(name); // prints waxx
 */

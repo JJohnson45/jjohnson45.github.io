@@ -1,9 +1,11 @@
 /* OPERATORS
 Operators: assigns, compares, orinclude them in arthimetic operators. 
 Operators can have take can different sorts
-* Ternary - three values
-* Binary  - two values 
-* Unary - one values 
+* Ternary - three values  (ex: var x = 20; 
+                               var y = 10; 
+                               var result = x + y);
+* Binary  - two values (ex: a + b);
+* Unary - one values (ex: i++);
 
 
 *1. Assignment operators:  =, +=, -=, *=, /=, %= 

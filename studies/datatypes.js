@@ -12,6 +12,17 @@ complex datatypes: array, object, and function
 The differnce the two are that simple datatypes dont hold or collect value. (copy by value)
 Complex datatypes can take other values and can grow into any size.(coby by reference)
 
+3. Javascript is alaway passed by Value, but when a variable refers to an object (including arrays)
+   the value isa reference to the object.
+   ex: var dog = 'pitbull';
+       dog = 'german shepard
+Chnaging the value of a variable never changes the underlying primitive or object,
+it just points the variable to a new primitive or object.
+
+However, changing a property of an object reference by a variable does change the underlying
+object.
+    
+
 
 // number datatype
 var num = 3; 
