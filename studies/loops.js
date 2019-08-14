@@ -12,14 +12,14 @@ Loops: for loop, for-in loops, while loops
 // for loop: its best to use this loop to go through an array
 
 // they are three conditions that goes inside (); the start, stop, incrementing. (i++)
-
+*/
 
 // loop forward
 
 let arr = [0, 1, 2, 3, 4, 5 ];
 
 for(let i = 0; i < arr.length; i++) {
-18
+
     console.log(i); // prints 0,1,2,3,4,5
 
 }
@@ -29,7 +29,7 @@ for(let i = 0; i < arr.length; i++) {
 for(let i = arr.length - 1; i > -1; i--) {
 
     console.log(i); // prints 5,4,3,2,1,0
-24
+
 }
 
 // for-in loops:  loop over objects and get keys or the values out of it
@@ -54,9 +54,9 @@ var person = {
 
  
 
- /* while loop: use the keyword while then a parenthesis, states a condition and while its true it will run this block of code.
+// while loop: use the keyword while then a parenthesis, states a condition and while its true it will run this block of code.
 
- /* var i = 3;
+ var i = 3;
 
 let greetings = [];
 
@@ -69,4 +69,3 @@ while (i < 8) { // everytime this condition is true run this code block
 }
 
 console.log(greetings); // prints "hey, how you doing!" 5 times
-*/
