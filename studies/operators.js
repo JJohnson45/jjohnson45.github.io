@@ -1,9 +1,7 @@
 /* OPERATORS
 Operators: assigns, compares, orinclude them in arthimetic operators. 
 Operators can have take can different sorts
-* Ternary - three values  (ex: var x = 20; 
-                               var y = 10; 
-                               var result = x + y);
+* Ternary - three values  (ex: person.driver = person.age >=16 ? 'Yes' : 'No';);
 * Binary  - two values (ex: a + b);
 * Unary - one values (ex: i++);
 
@@ -24,9 +22,7 @@ Operators can have take can different sorts
 *-  && And operator: if both condtions are true. \
 *- || Or operator:  if one of the conditions are true
 * - ! Bang operator: flips the value truthiness 
-
-
-var name = "JD"; // 
+*/
 
 // additional  assignment operator: adds value assigned to the variable and assigns the result to the variable
 
@@ -45,7 +41,7 @@ all -= 20;
 
 console.log(all); // prints 20
 
-/* multiplication assignment operator: multiplies the value assigned to the variable 
+// multiplication assignment operator: multiplies the value assigned to the variable 
 // the operator: *=
 var count = 10;
 count *= 3;
@@ -111,9 +107,9 @@ console.log(2 > 1); // prints true
 console.log(4 > -1); // prints false
 
 
-/*greater than or equal to: the number on the left of the operator is greater than or equal to the numnber right of the operator.
-the operator: >= 
-retuns booleans: true or false
+// greater than or equal to: the number on the left of the operator is greater than or equal to the numnber right of the operator.
+//the operator: >= 
+//retuns booleans: true or false
 
 console.log(5 >= 2); // prints true
 console.log(19 >= 98); // prints false 
@@ -123,7 +119,7 @@ console.log(19 >= 98); // prints false
 // the operator: === 
 // returns boolean: true or false
 console.log(33 === 33); // prints true
-console.log(44 === "44); // prints false
+console.log(44 === "44"); // prints false
 
 // srictly not equal to : checks to see if the dataype is not strictly equal to the datatype on the left of the operator
 // the operator: !== 
@@ -131,4 +127,3 @@ console.log(44 === "44); // prints false
 
 console.log( 6 !== 9); // prints true
 console.log(5 !== 5); // prints false
-*/

@@ -1,7 +1,7 @@
-/* Sting Manipulation
+// Sting Manipulation
 
-strings are immutable. but you can alter the string. 
-methods - toUpperCase, toLowerCase, slice, replace, concat, split,
+//strings are immutable. but you can alter the string. 
+//methods - toUpperCase, toLowerCase, slice, replace, concat, split,
 
 
 // toUpperCase: to upper case the string
@@ -36,11 +36,11 @@ console.log(name.length); // prints 6
 
 // replace: replace a element with a element you give
 
-let Str = ' I'm tall';
+let Str = "I'm tall";
 
-let newStr = Str.replace('tall', 'short');
+let BrandnewStr = Str.replace('tall', 'short');
 
-console.log(replaceStr1); // prints "I'm short"
+console.log(BrandnewStr); // prints "I'm short"
 
 
 // concat: join two strings together using the concat method operator and return a new string
@@ -48,8 +48,9 @@ console.log(replaceStr1); // prints "I'm short"
 let strOne = 'I love';
 
 let strTwo = 'to read';
+let strThree = [];
 
-console.log(str5.concat(strOne, strTwo)); // prints I love to read
+console.log(strThree.concat(strOne, strTwo)); // prints I love to read
 
 
 // split: splits a String object into an array of strings by separating the string into substrings,
@@ -65,4 +66,4 @@ console.log(newWords[6]); // prints Miami
 
 
 
-*/
+
