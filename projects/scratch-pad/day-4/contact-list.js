@@ -90,7 +90,7 @@ function makeContactList() {
         printAllContactNames: function(contact) {
             //make a string
             let contactsName = "";
-            //loop through that string
+            //loop through that contact named array
             // at every string add the the first name and lastname
             //return contacts name with no new line character after it.
             for(let i = 0; i < contacts.length; i++) {

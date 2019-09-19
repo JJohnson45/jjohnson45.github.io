@@ -6,62 +6,52 @@
 
 // toUpperCase: to upper case the string
 
-let tallStr = 'happy';
+// toUpperCase: to upper case the string
+let bigStr = 'lowercase';
 
-console.log(tallStr.toUpperCase());  // prints 'HAPPY'
-
+console.log(bigStr.toUpperCase());  // prints 'LOWERCASE'
 
 // toLowerCase: to lower case the string
+let litteStr = 'BABYSTRING';
 
-let smallStr = 'SAD';
+console.log(litteStr.toLowerCase()); // prints 'babystring'
 
-console.log(smallStr.toLowerCase()); // prints 'sad'
-
-
-// slice: take out elements from a string
-
-let myStr = 'bd457dw';
-
+// slice: take out elements from a string from (start, end)
+let myStr = 'tjcdef3f';
 let newStr = myStr.slice(0,2);
-
-console.log(newStr); // prints 'bd'
-
-
-// length: return the length of the string
-
-let name = 'Johnson';
-
-console.log(name.length); // prints 6
+console.log(newStr); // prints 'tj'
 
 
-// replace: replace a element with a element you give
-
-let Str = "I'm tall";
-
-let BrandnewStr = Str.replace('tall', 'short');
-
-console.log(BrandnewStr); // prints "I'm short"
-
+// replace: replace a element with a element you provides
+let replaceStr = ' I will be great!';
+let replaceStr1 = replaceStr.replace('great', 'good');
+console.log(replaceStr1); // prints 'I will be good'
 
 // concat: join two strings together using the concat method operator and return a new string
-
-let strOne = 'I love';
-
-let strTwo = 'to read';
-let strThree = [];
-
-console.log(strThree.concat(strOne, strTwo)); // prints I love to read
-
+let str5 = 'I cant wait';
+let str6 = 'to be successful!';
+console.log(str5.concat(' ', str6)); // prints I cant wait to be successful!
 
 // split: splits a String object into an array of strings by separating the string into substrings,
 // using a specified separator string to determine where to make each split.
 
-let str = 'I hope to move back to Miami and enjoy my life, finally';
+let wideStr = 'The Saints will lose this year';
+let takeWordsOut = wideStr.split(' ');
+console.log(takeWordsOut[1]); // prints Lakers
+console.log(takeWordsOut[6]); // prints playoffs
 
-let newWords = str.split(' ');
+//The + and += operator can also be used to add (concatenate) strings.
+var txt1 = "John";
+var txt2 = "Doe";
+var txt3 = txt1 + " " + txt2;
+console.log(txt3); //John Doe
 
-console.log(newWords[3]); // prints Move
-console.log(newWords[6]); // prints Miami
+var txt1 = "What a very ";
+txt1 += "nice day";
+console.log(txt1); //what a very nice day
+
+
+
 
 
 

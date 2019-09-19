@@ -28,30 +28,27 @@ access();
 // function expression:
 // we make a function expression by assigning a function to a variable
 //ex:
-var newPhone = function newPhone(iphone, android) {
-    return iphone + ' ' + android;
+// named function: 
+function movie(title, year) {
+    return title + ' ' + year;
 }
-newPhone('iphone', 'android');
+movie('US', '2019');
+
+// function expression: 
+// we make a function expression by assigning a fucntio to a variable
+let realName = function(firstName, lastName) {
+    return firstName + ' ' + lastName;
+}
 
 
 //Functions can see and modify variables in the global scope 
 
-// ex: 
+// ex 
 let name = "JD";
 function newName() {
-name = "waxx";
+name = "phil";
 } 
-// console.log(name);// prints JD
-newName();// to access waxx I have to call the function then check for name
-console.log(name); // prints waxx
-
-
-//Function hoisting: only the actual declarations are hoisted. Any assignments are left where they are.
-//Function declarations are also hoisted. However, functions that are assigned to variables are not hoisted
-
-foo();
-
-function foo() {
-  alert("Hello!");
-}
+// console.log(name);// prints jd
+newName();// to access phil I have to call the function then check for name
+console.log(name); // prints phil
 

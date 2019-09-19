@@ -16,56 +16,39 @@ Loops: for loop, for-in loops, while loops
 
 // loop forward
 
-let arr = [0, 1, 2, 3, 4, 5 ];
+let arr = [0, 1, 2, 3, 4, 5 , 6, 7 ];
 
 for(let i = 0; i < arr.length; i++) {
-
-    console.log(i); // prints 0,1,2,3,4,5
-
+    console.log(i); // prints 0,1,2,3,4,5,6,7
 }
 
 // looping backwards
-
 for(let i = arr.length - 1; i > -1; i--) {
-
-    console.log(i); // prints 5,4,3,2,1,0
-
+    console.log(i); // prints 7,6,5,4,3,2,1,0
 }
 
-// for-in loops:  loop over objects and get keys or the values out of it
 
-var person = {
-
-  name: "JD",
-
-  city: 'Slidell',
-
-  sport: 'basketball'
-
+// for-in loops: designed to loop over objects and get keys or the values out of it
+// 
+var Pet = {
+  name: "WAXX",
+  breed: 'pitbull',
+  age: '2'
 };
 
- for(let key in person) {
-
-     console.log(key); // prints name, city, sport
-
-    console.log(person[key]); // prints JD, Slidell, basketball
-
+ for(let key in Pet) {
+     console.log(key); // prints name, breed, age
+    console.log(Pet[key]); // prints JD, pitbull, 2
  }
-
  
-
-// while loop: use the keyword while then a parenthesis, states a condition and while its true it will run this block of code.
-
- var i = 3;
-
+ /* while loop: use the keyword while then a parenthesis, states a condition and
+ while its true it will run this block of code.
+ */
+ 
+ var i = 4;
 let greetings = [];
-
-while (i < 8) { // everytime this condition is true run this code block
-
-  greetings += "hey, how you doing!";
-
+while (i < 10) { // everytime this condition is true run this code block
+  greetings += "whats up bro!";
   i++;
-
 }
-
-console.log(greetings); // prints "hey, how you doing!" 5 times
+console.log(greetings); // prints "whats up bro!" 6 times
