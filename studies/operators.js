@@ -17,11 +17,16 @@ let sum = a + b;
 console.log(sum); //19
 
 // Unary - one values 
-let arr = [1,2,3,4,5];
-for(var i = 0; i < arr.length; i++){
-    
+if( a !== b){
+  return true;
 }
-console.log(i); 5;
+
+console.log(10 - 9); //prints 1
+
+if(typeof collection === 'object'){
+  return true;
+}
+
 
 
 /*1. Assignment operators:  =, +=, -=, *=, /=, %= 
