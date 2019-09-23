@@ -1,7 +1,7 @@
 /* OPERATORS
 Operators: assigns, compares, orinclude them in arthimetic operators. 
 Operators can have take can be different sorts
-* Ternary - three values */ 
+* Ternary - used with three objects */ 
 let person = {
   name: 'tony',
   age: 20,
@@ -10,24 +10,35 @@ let person = {
 ex: 
 person.driver = person.age >=16 ? 'Yes' : 'No';
 
-//Binary  - two values 
+//Binary  - use with two objects
 let a = 9;
 let b = 10;
 let sum = a + b;
 console.log(sum); //19
 
-// Unary - one values 
-if( a !== b){
-  return true;
-}
+// Unary - A unary operator is one that takes a single operand/argument and performs an operation.
+//It converts the operand into it's boolean equivalent before negating it.
+!undefined;   // returns true
+!"" ;         // returns true
+!true;         // returns false
 
-console.log(10 - 9); //prints 1
+// unary negation and plus perform the same operation as the Number() function for non-numbers.
+//and converts non-numbers data types to numbers
+    -3; // returns -3
+    -'-3'; // returns 3
+    -'3.14'; // returns -3.14
+    -'3'; // returns -3
+    -'0xFF'; // returns -255
 
+//typeof is a keyword that will return the type of a variable when you call it.
 if(typeof collection === 'object'){
   return true;
-}
+} // prints true
 
-
+typeof false;   // returns 'boolean'
+typeof null ;  // returns 'object';
+typeof Infinity;  // returns 'number';
+typeof '2'; // returns 'string';
 
 /*1. Assignment operators:  =, +=, -=, *=, /=, %= 
 
