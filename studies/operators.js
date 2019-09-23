@@ -17,12 +17,12 @@ let sum = a + b;
 console.log(sum); //19
 
 // Unary - A unary operator is one that takes a single operand/argument and performs an operation.
-//It converts the operand into it's boolean equivalent before negating it.
+// "!" converts the operand into it's boolean equivalent before negating it.
 !undefined;   // returns true
 !"" ;         // returns true
 !true;         // returns false
 
-// unary negation and plus perform the same operation as the Number() function for non-numbers.
+// unary negation perform the same operation as the Number() function for non-numbers.
 //and converts non-numbers data types to numbers
     -3; // returns -3
     -'-3'; // returns 3
@@ -31,9 +31,10 @@ console.log(sum); //19
     -'0xFF'; // returns -255
 
 //typeof is a keyword that will return the type of a variable when you call it.
+var collection = {};
 if(typeof collection === 'object'){
   return true;
-} // prints true
+} // outputs true;
 
 typeof false;   // returns 'boolean'
 typeof null ;  // returns 'object';
